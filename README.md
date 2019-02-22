@@ -1,9 +1,10 @@
 ## Welcome to Xiaoqiang's homepage!
 The homepage is coming soon, please be patient.
+
 Best,
+
 Xiaoqiang
 
-You can use the [editor on GitHub](https://github.com/XiaoqiangZhou/xiaoqiangzhou.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
