@@ -23,23 +23,23 @@
 ##### ACADEMIC EXPERIENCE
 
 - Multimedia Computing & Communication Lab, Advisor: Prof. Wengang Zhou, 2017/09-2018/06
-   - Research Project: Large-Scale Video Retrieval
+   - Research Project: Large-Scale Video Retrieval  
      I implement a retrieval method proposed by Andre Araujo. Besides, I retrain the parameters of GMM and expand it to video-to-video retrieval task
-   - Experiment: Compare performance of SIFT and R-MAC in visual localization task
+   - Experiment: Compare performance of SIFT and R-MAC in visual localization task  
      I record database video and query videos in my campus, while query videos are shorter and captured in a diﬀerent light or weather condition. Using SIFT and R-MAC descriptor as the image feature separately, I compare their performance on this task. 
 
 - Research Intern: Internet Media Group, MSRA, Beijing, Mentor: Dr. Chong Luo.2018/07-2019/06
-   - Demo: Video Synopsis
+   - Demo: Video Synopsis  
      We use existed detector and tracker to extract tracklets. Later, tracklets are rearranged to reduce the video length, followed by image synthesis. This demo is selected into Microsoft TechFest 2019
-   - Research Project: Visual Object Tracking 
+   - Research Project: Visual Object Tracking  
      We propose to add more templates in tracking. Backward veriﬁcation is used to verify the correctness of template request. By the way, we ﬁnd a good indicator to enlarge search region. Results on several benchmarks are promising 
 
 ##### COMPUTER SKILLS
-- Languages
+- Languages  
   Python, C/C++, MATLAB, LATEX
-- Framework
+- Framework  
   Tensorflow, PyTorch
-- Systems
+- Systems  
   Linux, Microsoft Windows
 
 ##### ENGLISH ABILITY
