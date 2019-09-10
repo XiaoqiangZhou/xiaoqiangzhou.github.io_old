@@ -47,8 +47,8 @@
 - TOEFL: 89 (R:27 L:22 S:19 W:21)
 
 ##### SCHOLARSHIP
-2016 National Endeavor Scholarship
-2016 Excellent Student Scholarship
-2017 National Endeavor Scholarship
-2017 Sumsung Scholarship
-2018 Excellent Student Scholarship
+2016 National Endeavor Scholarship  
+2016 Excellent Student Scholarship  
+2017 National Endeavor Scholarship  
+2017 Sumsung Scholarship  
+2018 Excellent Student Scholarship  
