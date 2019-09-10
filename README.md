@@ -1,15 +1,13 @@
 <table border="0">
   <tr>
-    <td width="75%">
       <h1>Xiaoqiang Zhou</h1>
       <p><b>bachelor's degree</b></p>
       <p><b>University of Science and Technology of China</b></p>
       <p><b>Mail: xq525@mail.ustc.edu.cn</b></p>
       <p><b>Address: West Campus, USTC Hefei, Anhui 230027, China</b></p>
-    </td>
-    <td width="25%">
+
       <img src="/大学.jpg" width="100%">
-    </td>
+
   </tr>
 </table>
 
@@ -47,3 +45,8 @@
 - TOEFL: 89 (R:27 L:22 S:19 W:21)
 
 ##### SCHOLARSHIP
+2016 National Endeavor Scholarship
+2016 Excellent Student Scholarship
+2017 National Endeavor Scholarship
+2017 Sumsung Scholarship
+2018 Excellent Student Scholarship
