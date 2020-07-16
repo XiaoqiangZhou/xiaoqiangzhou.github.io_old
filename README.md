@@ -2,7 +2,6 @@
   <tr>
     <td width="75%">
       <h1>Xiaoqiang Zhou</h1>
-      <p><b>bachelor's degree</b></p>
       <p><b>University of Science and Technology of China</b></p>
       <p><b>Mail: xq525@mail.ustc.edu.cn</b></p>
       <p><b>Address: West Campus, USTC Hefei, Anhui 230027, China</b></p>
@@ -14,12 +13,13 @@
 </table>
 
 ##### RESEARCH INTEREST
-- Multimedia Information Retrieval
 - Computer Vision 
+- Multimedia Information Retrieval
 
 ##### EDUCATION
 - B.E. Electronic Engineering and Information Science, University of Science and Technology of China, 2015-2019 
-
+- Ph.D, Automation, University of Science and Technology of China, 2019-Now
+  - Advisors: Tieniu Tan, Ran He, Zilei Wang
 ##### ACADEMIC EXPERIENCE
 
 - Multimedia Computing & Communication Lab, Advisor: Prof. Wengang Zhou, 2017/09-2018/06
