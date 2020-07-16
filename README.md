@@ -34,6 +34,12 @@
    - Research Project: Visual Object Tracking  
      We propose to add more templates in tracking. Backward veriﬁcation is used to verify the correctness of template request. By the way, we ﬁnd a good indicator to enlarge search region. Results on several benchmarks are promising 
 
+- Research Assistant: University of Science and Technology,  Advisor: Prof. Zilei Wang, 2019/07-2020/07
+  - Publication: Semantic Image Inpainting with Contrastive Relation Network (ICPR 2020)
+  
+- Research Intern: Base Computer Vision Group, Meituan, Beijing, Mentor: Dr. Zhenhua Chai.2020/04-Now
+  - Project: Image Watermak Removal
+
 ##### COMPUTER SKILLS
 - Languages  
   Python, C/C++, MATLAB, LATEX
