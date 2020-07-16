@@ -19,7 +19,8 @@
 ##### EDUCATION
 - B.E. Electronic Engineering and Information Science, University of Science and Technology of China, 2015-2019 
 - Ph.D, Automation, University of Science and Technology of China, 2019-Now
-  - Advisors: Tieniu Tan, Ran He, Zilei Wang
+  + Advisors: Tieniu Tan, Ran He, Zilei Wang
+
 ##### ACADEMIC EXPERIENCE
 
 - Multimedia Computing & Communication Lab, Advisor: Prof. Wengang Zhou, 2017/09-2018/06
