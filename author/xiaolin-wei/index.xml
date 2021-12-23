@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaolin Wei | Xiaoqiang&#39;s Homepage</title>
+    <link>http://xiaoqiangzhou.cn/author/xiaolin-wei/</link>
+      <atom:link href="http://xiaoqiangzhou.cn/author/xiaolin-wei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaolin Wei</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png</url>
+      <title>Xiaolin Wei</title>
+      <link>http://xiaoqiangzhou.cn/author/xiaolin-wei/</link>
+    </image>
+    
+    <item>
+      <title>Contrastive Attention Network with Dense Field Estimation for Face Completion</title>
+      <link>http://xiaoqiangzhou.cn/publication/pr-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/publication/pr-2021/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h3 id=&#34;method&#34;&gt;Method:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-overall-framework&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/images/PR-2021/PR_framework_hue54907dc7a4effc9fb5c5a8aad1ae786_732063_cdfed3f1f96e1c7df2748c2c2e7b04f8.jpg 400w,
+               /media/images/PR-2021/PR_framework_hue54907dc7a4effc9fb5c5a8aad1ae786_732063_a07aa277fc5fa1a43721cc3b8290fb82.jpg 760w,
+               /media/images/PR-2021/PR_framework_hue54907dc7a4effc9fb5c5a8aad1ae786_732063_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/images/PR-2021/PR_framework_hue54907dc7a4effc9fb5c5a8aad1ae786_732063_cdfed3f1f96e1c7df2748c2c2e7b04f8.jpg&#34;
+               width=&#34;760&#34;
+               height=&#34;435&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Overall Framework
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+The self-supervised Siamese inference network consists of encoders $E_q$ and $E_k$. This inference network encodes the new key representations on-the-fly by using the momentum-updated encoder $E_k$. We insert the dual attention fusion module into several decoder layers, forming a multi-scale decoder. We allow the decoder to estimate the dense correspondence field (UV maps) and the feature maps that are used for the DAF module at multi-scales simultaneously. The inference network is firstly trained with contrastive learning. Then the pre-trained encoder $E_q$ and the decoder are jointly trained with the fusion module.&lt;/p&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-some-qualitative-results-compared-with-state-of-the-arts-on-three-datasets&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/images/PR-2021/PR_comparison_hu877ed77f0b239f5a76106addef33daca_3973790_af6dea839d64ce4362f0f682d1f26cc8.png 400w,
+               /media/images/PR-2021/PR_comparison_hu877ed77f0b239f5a76106addef33daca_3973790_f04267f24aa70b61ffa821674c5c6e4a.png 760w,
+               /media/images/PR-2021/PR_comparison_hu877ed77f0b239f5a76106addef33daca_3973790_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/images/PR-2021/PR_comparison_hu877ed77f0b239f5a76106addef33daca_3973790_af6dea839d64ce4362f0f682d1f26cc8.png&#34;
+               width=&#34;760&#34;
+               height=&#34;309&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Some qualitative results compared with state-of-the-arts on three datasets.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Free-Form Image Inpainting via Contrastive Attention Network</title>
+      <link>http://xiaoqiangzhou.cn/publication/icpr-2020-second/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/publication/icpr-2020-second/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h3 id=&#34;method&#34;&gt;Method:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-framework&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/images/ICPR-second/framework_huac1c7c4e40913d821ac2e3788b61aedf_375676_7bf6625276328d41c16279a99cd0806c.PNG 400w,
+               /media/images/ICPR-second/framework_huac1c7c4e40913d821ac2e3788b61aedf_375676_aad42060a90423e5d1bf42c0d584b308.PNG 760w,
+               /media/images/ICPR-second/framework_huac1c7c4e40913d821ac2e3788b61aedf_375676_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/images/ICPR-second/framework_huac1c7c4e40913d821ac2e3788b61aedf_375676_7bf6625276328d41c16279a99cd0806c.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;465&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Framework
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+The self-supervised Siamese inference network consists of encoder $E_q$ and $E_k$ with contrastive learning. This inference network encodes the new key representations on-the-fly by using the momentum-updated encoder $E_k$. We insert the dual attention fusion module into several decoder layers, thus forming a multi-scale decoder. The inference network is firstly trained on ImageNet with contrastive learning. Then the pre-trained encoder $E_q$ and the decoder are jointly trained with the fusion module.&lt;/p&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-some-qualitative-results-compared-with-state-of-the-arts-on-three-datasets&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/images/ICPR-second/comparision-experments_huae139fbcb5cd15ee90c3a46ccaca155b_1750366_7b60898a7f4bbbdc4865fcf7255f5bee.PNG 400w,
+               /media/images/ICPR-second/comparision-experments_huae139fbcb5cd15ee90c3a46ccaca155b_1750366_4fabc955ccaad38543441686e94a4846.PNG 760w,
+               /media/images/ICPR-second/comparision-experments_huae139fbcb5cd15ee90c3a46ccaca155b_1750366_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/images/ICPR-second/comparision-experments_huae139fbcb5cd15ee90c3a46ccaca155b_1750366_7b60898a7f4bbbdc4865fcf7255f5bee.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;453&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Some qualitative results compared with state-of-the-arts on three datasets.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

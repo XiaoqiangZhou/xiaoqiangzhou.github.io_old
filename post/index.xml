@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Xiaoqiang&#39;s Homepage</title>
+    <link>http://xiaoqiangzhou.cn/post/</link>
+      <atom:link href="http://xiaoqiangzhou.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>http://xiaoqiangzhou.cn/post/</link>
+    </image>
+    
+    <item>
+      <title>How to Make a Benchmark Analysis</title>
+      <link>http://xiaoqiangzhou.cn/post/benchmark/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/post/benchmark/</guid>
+      <description>&lt;h3 id=&#34;cvpr-2019-single-image-deraining-a-comprehensive-benchmark-analysis&#34;&gt;[CVPR 2019] Single Image Deraining: A Comprehensive Benchmark Analysis&lt;/h3&gt;
+&lt;h6 id=&#34;motivation&#34;&gt;Motivation:&lt;/h6&gt;
+&lt;p&gt;It is thus unclear how these algorithms would perform on rainy images acquired “in the wild” and how we could gauge the progress in the field.&lt;/p&gt;
+&lt;h6 id=&#34;pipeline&#34;&gt;Pipeline:&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Formulate the rainy image synthesis process (from simple to complex)&lt;/li&gt;
+&lt;li&gt;Summarize the contribution (thorough methods/testing sets)&lt;/li&gt;
+&lt;li&gt;Method: Introduce the training sets&lt;/li&gt;
+&lt;li&gt;Method: Introduce the testing sets&lt;/li&gt;
+&lt;li&gt;Method: Introduce the additional task-driven (object detection in rainy images) testing sets.&lt;/li&gt;
+&lt;li&gt;Experiments: Objective comparison (PSNR, SSIM, NIQE, SSEQ, and BLIINDSII)&lt;/li&gt;
+&lt;li&gt;Experiments: Subjective comparison (11 human raters)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;tpami-2021-cross-domain-facial-expression-recognition-a-unified-evaluation-benchmark-and-adversarial-graph-learning&#34;&gt;[TPAMI 2021] Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning&lt;/h3&gt;
+&lt;h6 id=&#34;motivation-1&#34;&gt;Motivation:&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Comprehensive and fair comparisons are lacking due to inconsistent choices of the source/target datasets and feature extractors.&lt;/li&gt;
+&lt;li&gt;This journal paper is an extension work on their conference paper, which is published on ACM MM 2020. Therefore, the authors propose a novel method for this task.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;pipeline-1&#34;&gt;Pipeline:&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Category existing works by the training sets and backbone network.&lt;/li&gt;
+&lt;li&gt;Build a simple baseline with ResNet-50 and take experiments to verify the influence of domain gap caused by the selected training sets.&lt;/li&gt;
+&lt;li&gt;Conduct experiments to compare the effectiveness of different backbones under a baseline design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Re-implement some SOTA methods manually and take thorough experiments with different training sets / backbone.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Evaluation Protocols: Dataset choice/Feature extractor choice&lt;/li&gt;
+&lt;li&gt;Introduce the proposed method.&lt;/li&gt;
+&lt;li&gt;Ablation study on the proposed method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;tpami-2020-toward-bridging-the-simulated-to-real-gap-benchmarking-super-resolution-on-real-data&#34;&gt;[TPAMI 2020] Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Resolution on Real Data&lt;/h3&gt;
+&lt;h3 id=&#34;cvpr-2020-cross-domain-document-object-detection-benchmark-suite-and-method&#34;&gt;[CVPR 2020] Cross-Domain Document Object Detection: Benchmark Suite and Method&lt;/h3&gt;
+&lt;h3 id=&#34;wacv-2021-adaptiope-a-modern-benchmark-for-unsupervised-domain-adaptation&#34;&gt;[WACV 2021] Adaptiope: A Modern Benchmark for Unsupervised Domain Adaptation&lt;/h3&gt;
+&lt;h3 id=&#34;todo--the-first-work-that-defines-the-setting-of-domain-generalization-task&#34;&gt;[TODO ] The first work that defines the setting of domain generalization task&lt;/h3&gt;
+&lt;h3 id=&#34;submitted-to-neurips-21-ood-bench-benchmarking-and-understanding-out-of-distribution-generalization-datasets-and-algorithms&#34;&gt;[submitted to NeurIPS 21] OoD-Bench Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms&lt;/h3&gt;
+&lt;h3 id=&#34;domain-generalization-in-vision-a-survey&#34;&gt;Domain Generalization in Vision: A Survey&lt;/h3&gt;
+&lt;h3 id=&#34;number-of-paper-titles-including-benchmark&#34;&gt;Number of paper titles including &amp;ldquo;benchmark&amp;rdquo;:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;ICCV 2021:&lt;/em&gt; 18. &lt;a href=&#34;https://openaccess.thecvf.com/ICCV2021?day=all&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;CVPR 2021:&lt;/em&gt; 17. &lt;a href=&#34;https://openaccess.thecvf.com/CVPR2021?day=all&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ECCV 2020:&lt;/em&gt; 7.  &lt;a href=&#34;https://www.ecva.net/papers.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;CVPR 2020:&lt;/em&gt; 6.  &lt;a href=&#34;https://openaccess.thecvf.com/CVPR2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;TPAMI&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;i&gt;TPAMI&lt;/i&gt;&lt;/summary&gt;
+&lt;pre&gt;
+1. Title: &lt;b&gt;Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Resolution on Real Data&lt;/b&gt;
+   Authors: TPAMI 2020
+&lt;/pre&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;i&gt;ICCV 2021&lt;/i&gt;&lt;/summary&gt;
+&lt;pre&gt;
+1. Title: Adversarial VQA: A New Benchmark for Evaluating the Robustness of VQA Models
+   Authors: Jingjing Liu
+2. Title: Env-QA: A Video Question Answering Benchmark for Comprehensive Understanding of Dynamic Environments
+    Authors: Ziyi Bai, Xilin Chen
+3. &lt;b&gt;Title: FloW: A Dataset and Benchmark for Floating Waste Detection in Inland Waters&lt;/b&gt;
+   Authors:  &lt;b&gt;Yoshua Bengio&lt;/b&gt;
+4. Title: Webly Supervised Fine-Grained Recognition: Benchmark Datasets and an Approach
+   Authors: Jian Zhang, Heng Tao Shen
+5. Title: H2O: A Benchmark for Visual Human-Human Object Handover Analysis
+   Authors: Yanfeng Wang, Cewu Lu
+6. Title: RobustNav: Towards Benchmarking Robustness in Embodied Navigation
+   Authors:
+7. Title: Towards Real-World Prohibited Item Detection: A Large-Scale X-Ray Benchmark
+   Authors:
+8. &lt;b&gt;Title: Transparent Object Tracking Benchmark&lt;/b&gt;
+   Authors: Haibin Ling
+9. Title: E-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks
+   Authors:
+10. &lt;b&gt;Title: Benchmarking Ultra-High-Definition Image Super-Resolution&lt;/b&gt;
+   Authors: Hongdong Li, Ming-Hsuan Yang
+11. Title: Unidentified Video Objects: A Benchmark for Dense, Open-World Segmentation
+   Authors:
+12. &lt;b&gt;Title: Real-World Video Super-Resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme&lt;/b&gt;
+   Authors: Lei Zhang
+13. &lt;b&gt;Title: HDR Video Reconstruction: A Coarse-To-Fine Network and a Real-World Benchmark Dataset&lt;/b&gt;
+   Authors: Lei Zhang
+&lt;/pre&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;i&gt;CVPR 2021&lt;/i&gt;&lt;/summary&gt;
+&lt;pre&gt;
+1. Title: &lt;b&gt;Multi-Shot Temporal Event Localization: A Benchmark&lt;/b&gt;
+   Authors: Xiang Bai, Philip H. S. Torr
+2. Title: &lt;b&gt;Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline&lt;/b&gt;
+   Authors:
+3. Title: GMOT-40: A Benchmark for Generic Multiple Object Tracking
+   Authors: Liang Lin
+4. Title: ForgeryNet: A Versatile Benchmark for Comprehensive Forgery Analysis
+   Authors: Ziwei Liu
+&lt;/pre&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;i&gt;ECCV 2020&lt;/i&gt;&lt;/summary&gt;
+&lt;pre&gt;
+1. Title: &lt;b&gt;Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms&lt;/b&gt;
+   Authors: Jucheol Won, Sunghyun Cho
+2. Title: &lt;b&gt;Towards causal benchmarking of bias in face analysis algorithms&lt;/b&gt;
+   Authors: MIT, Amazon
+&lt;/pre&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;i&gt;CVPR 2020&lt;/i&gt;&lt;/summary&gt;
+&lt;pre&gt;
+1. Title: &lt;b&gt;Cross-Domain Document Object Detection: Benchmark Suite and Method&lt;/b&gt;
+   Authors: Yun Fu
+2. Title: &lt;b&gt;Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes&lt;/b&gt;
+   Authors: Ronghe Chu, Jingyu Yang
+&lt;/pre&gt;
+&lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[AAAI 2022] Revisiting Global Statistics Aggregation for Improving Image Restoration</title>
+      <link>http://xiaoqiangzhou.cn/post/chu_revisiting/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/post/chu_revisiting/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_50551a23622d6ba605ce93a2febed507.PNG 400w,
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_655c2cf608a8f82a32a6ab53f2a4a0ad.PNG 760w,
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_50551a23622d6ba605ce93a2febed507.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;124&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;summary&#34;&gt;Summary:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Domain gap between training/testing statistics distribution. This paper shows that statistics aggregated on the patches-based/entire-image-based feature in the training/testing phase respectively may distribute very differently.&lt;/li&gt;
+&lt;li&gt;The test-time solution can be summarized as converting the statistics aggregation operation from global to local, i.e. each pixel of the feature aggregates its own statistics locally.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;method&#34;&gt;Method:&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-illustration-of-training-and-testing-schemes-of-image-restoration&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_fcf6783fd6dca99fdc5245eadc7f98c3.PNG 400w,
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_7996b112f4293090ff5808333d721e00.PNG 760w,
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_fcf6783fd6dca99fdc5245eadc7f98c3.PNG&#34;
+               width=&#34;444&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Illustration of training and testing schemes of image restoration
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The computational complexity of local statistics for the whole image can be reduced from $O(HWK_hK_w)$ to $O(HW)$ with some mathematical tricks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-formulation-of-the-global-statistics-calculation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_245ad170589f238ce8ffb08eabaa987a.PNG 400w,
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_a766e4dccb6b8ea7b599f379155e73e1.PNG 760w,
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_245ad170589f238ce8ffb08eabaa987a.PNG&#34;
+               width=&#34;267&#34;
+               height=&#34;66&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Formulation of the global statistics calculation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-formulation-of-the-local-statistics-calculation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_883f35f5566ea6f13dc276451848d99a.PNG 400w,
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_66905c017bae1f8dcbf5e5c331759500.PNG 760w,
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_883f35f5566ea6f13dc276451848d99a.PNG&#34;
+               width=&#34;303&#34;
+               height=&#34;58&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Formulation of the local statistics calculation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;The authors extend the proposed modules to the  Squeeze and Excitation (SE) block and Instance Normalization (IN) block.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;experiments&#34;&gt;Experiments&lt;/h4&gt;
+&lt;p&gt;The authors take experiments on image restoration task and semantic segmentation task.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-4--visualization-of-the-statistics-mean-distribution-of-in-and-se-in-traintest-time&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_f4aace952048351c3036dce33503929a.PNG 400w,
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_2b08cb8e73d241b2bc6805d023211817.PNG 760w,
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_f4aace952048351c3036dce33503929a.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;549&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 4:  Visualization of the statistics (mean) distribution of IN and SE in train/test-time
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;some-take-away-conclusions&#34;&gt;Some take-away conclusions&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Full-image training causes severe performance loss in low-level vision task.  This is explained by that full-images training lacks cropping augmentation&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build up Your Homepage with Hugo</title>
+      <link>http://xiaoqiangzhou.cn/post/hompage-buildup/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/post/hompage-buildup/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Build up the template homepage with Hugo themes.&lt;/li&gt;
+&lt;li&gt;Revise the content with your personal information and perference.&lt;/li&gt;
+&lt;li&gt;Add some new features beyond this template.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--
+1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
+2. The template can be modified and customised to suit your needs. It&#39;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
+3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+## Get Started
+
+- 👉 [**Create a new site**](https://wowchemy.com/templates/)
+- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
+- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&amp;src=typed_query)
+- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
+- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+
+## Crowd-funded open-source software
+
+To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+
+### [❤️ Click here to become a sponsor and help support Wowchemy&#39;s future ❤️](https://wowchemy.com/plans/)
+
+As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
+
+## Ecosystem
+
+* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+
+## Inspiration
+
+[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you&#39;ll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+
+## Features
+
+- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
+- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
+- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
+- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
+- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
+- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
+- **Beautiful Site** - Simple and refreshing one page design
+- **Industry-Leading SEO** - Help get your website found on search engines and social media
+- **Media Galleries** - Display your images and videos with captions in a customizable gallery
+- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
+- **Multi-language** - 34+ language packs including English, 中文, and Português
+- **Multi-user** - Each author gets their own profile page
+- **Privacy Pack** - Assists with GDPR
+- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
+- **One-Click Deployment** - No servers. No databases. Only files.
+
+## Themes
+
+Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+
+[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
+--&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Notes</title>
+      <link>http://xiaoqiangzhou.cn/post/code_notes/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/post/code_notes/</guid>
+      <description>&lt;h4 id=&#34;提升效率的命令技巧&#34;&gt;提升效率的命令/技巧&lt;/h4&gt;
+&lt;p&gt;alias命令
+在~/.bashrc文件中添加如下命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;alias data=&amp;quot;cd /data1/username/exp_data&amp;quot;
+alias codes=&amp;quot;cd /data1/username/codes&amp;quot;
+alias ac_torch=&amp;quot;conda activate pytorch1.5.0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;之后便可通过data和codes命令直接进入对应路径下&lt;/p&gt;
+&lt;p&gt;关于~/.bashrc文件，可以理解为每次登陆时自动执行一次其中的内容&lt;/p&gt;
+&lt;p&gt;直接在命令行执行export， alias等命令，有效期为本次登录期间。&lt;/p&gt;
+&lt;p&gt;可以将自定义命令写入另一个文件~/.my_cmd，然后在~/.bashrc最后加入&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;source ~/.my_cmd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;alias命令不光可以在~/.bashrc即linux平台使用，在git, cmder等软件中均可以进行配置。&lt;/p&gt;
+&lt;p&gt;常用的命令比如ssh &lt;strong&gt;@&lt;/strong&gt;， tensorboard都可以通过alias命令简化&lt;/p&gt;
+&lt;h4 id=&#34;git&#34;&gt;Git&lt;/h4&gt;
+&lt;p&gt;git可以很方便的实现多机、多平台之间的代码同步。
+这里假设本地使用一台机器编辑代码，在两个平台（github和公司的git仓库），多个机器上（组里的N台机器，公司的N台机器）进行代码同步。
+做法：参见另一篇文章：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/226278333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;周晓强：Git Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h4 id=&#34;pip&#34;&gt;Pip&lt;/h4&gt;
+&lt;p&gt;使用清华源下载：
+&lt;code&gt;pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;vs-code&#34;&gt;VS Code&lt;/h4&gt;
+&lt;p&gt;远程连接服务器：参考
+&lt;a href=&#34;https://blog.csdn.net/weixin_42096901/article/details/105062195&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;windows下使用vscode远程连接Linux服务器进行开发&lt;/a&gt;
+​&lt;/p&gt;
+&lt;h4 id=&#34;pytorch安装&#34;&gt;PyTorch安装&lt;/h4&gt;
+&lt;p&gt;首先使用nvidia-smi命令查看CUDA驱动版本，比如10.2&lt;/p&gt;
+&lt;p&gt;在PyTorch网页（链接）寻找对应的命令，建议使用conda命令安装，同时cudatoolkit版本与上述CUDA驱动版本保持一致&lt;/p&gt;
+&lt;p&gt;例如使用nvidia-smi命令后，显示版本为10.2, 则安装pytorch的命令为&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;注意要安装cudatoolkit包，不然可能导致&lt;code&gt;torch.cuda.is_available()=False&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;注意：PyTorch的安装不涉及到cuda和cudnn的配置，可以认为在cudatoolkit中实现了类似功能&lt;/p&gt;
+&lt;h4 id=&#34;tensorflow安装&#34;&gt;Tensorflow安装&lt;/h4&gt;
+&lt;p&gt;Tensorflow的安装的大体思路：配置cuda和cudnn, 然后利用export添加到路径，之后再安装tensorflow。&lt;/p&gt;
+&lt;p&gt;目前不太确定的是，你想要安装的cuda版本以及nvidia-smi显示的cuda版本以及系统/usr/local下的cuda版本之间的关系，以及是否会冲突等。&lt;/p&gt;
+&lt;p&gt;首先检查本机是否已经配置好cuda和cudnn：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检查cuda安装情况：执行nvcc -V命令，如果显示命令不存在，进行第2步；如果显示版本信息，进行第3步。&lt;/li&gt;
+&lt;li&gt;cuda安装的确认：进入/usr/local/cuda/bin目录下，执行&lt;code&gt;nvcc -V&lt;/code&gt;。如果显示了版本信息，说明cuda安装了，但是没有加入系统路径，之后如果在第3步确认cudnn也确实安装好了，可以将cuda加入系统路径，进入第3步。如果/usr/local/cuda*路径不存在，说明没有安装cuda。cuda都没有配置的话，cudnn基本也没有配置，非正常退出。&lt;/li&gt;
+&lt;li&gt;检查cudnn安装情况：在cuda目录下，执行&lt;code&gt;cat /path/to/cuda/include/cudnn.h | grep CUDNNMAJOR -A5&lt;/code&gt;如果显示出CUDNN_MAJOR，CUDNN_MA等信息，则证明安装成功。说明本机已经配置好cuda和cudnn，正常退出。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;cuda和cudnn环境准备好之后，即可安装tensorflow&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install tensorflow-gpu==***&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以通过&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;import tensorflow as tf;tf.test.is_gpu_available()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;检查，正确的输出结果为： 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-可以从log中看到gpu信息&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/code_notes/1_hue7104633ab21bc6a823ef89ce84a2436_199856_0d54e6d0b08994821aad9326e5905609.png 400w,
+               /media/posts/code_notes/1_hue7104633ab21bc6a823ef89ce84a2436_199856_2c8653a74068e04de82f90c07d7910e5.png 760w,
+               /media/posts/code_notes/1_hue7104633ab21bc6a823ef89ce84a2436_199856_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/code_notes/1_hue7104633ab21bc6a823ef89ce84a2436_199856_0d54e6d0b08994821aad9326e5905609.png&#34;
+               width=&#34;720&#34;
+               height=&#34;231&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      可以从log中看到GPU信息
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;可以从log中看到GPU信息&lt;/p&gt;
+&lt;h4 id=&#34;cuda和cudnn的安装&#34;&gt;cuda和cudnn的安装：&lt;/h4&gt;
+&lt;p&gt;首先安装cuda。cuda仓库网址：&lt;a href=&#34;https://developer.nvidia.com/cuda-toolkit-archive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CUDA Toolkit Archive&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;给文件运行权限 chmod + x &lt;strong&gt;.run, 然后运行./&lt;/strong&gt;.run，依次选择accept&amp;mdash;no&amp;mdash;yes，然后将cuda安装到你的目录下（建议指定自己的目录）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下载cudnn。cudnn仓库网址：&lt;a href=&#34;https://developer.nvidia.com/rdp/cudnn-archive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cuDNN Archive&lt;/a&gt;
+​
+需要注册NVIDIA账号，根据名称，找对应刚才cuda版本的cudnn安装包下载解压。&lt;code&gt;tar -xzvf cudnn-**-linux-x64-v**.tgz&lt;/code&gt;，win10下下载cudnn时后缀可能被修改，重命名为**.tgz即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进行部分文件的拷贝，从cudnn解压后的cuda文件夹，复制到之前的cuda文件夹中：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;cp cuda/include/cudnn.h /path/to/your_cuda/include/
+cp cuda/lib64/libcudnn* /path/to/your_cuda/lib64
+chmod a+r /path/to/your_cuda/include/cudnn.h /path/to/your_cuda/lib64/libcudnn*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;查看cuda和cudnn安装状态：分别为nvcc -V和&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;cat /path/to/your_cuda/include/cudnn.h | grep CUDNN_MAJOR -A5&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果输出正常版本号，则证明cuda和cudnn安装成功。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-nvcc--v查看安装的cuda版本&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/code_notes/2_hu10a71d56ebc020aed6deac0607066265_2849_674099db9e7f2daf6a4dd4b7df21d8c8.png 400w,
+               /media/posts/code_notes/2_hu10a71d56ebc020aed6deac0607066265_2849_0951221c47d782fce6f2007e04edd9d1.png 760w,
+               /media/posts/code_notes/2_hu10a71d56ebc020aed6deac0607066265_2849_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/code_notes/2_hu10a71d56ebc020aed6deac0607066265_2849_674099db9e7f2daf6a4dd4b7df21d8c8.png&#34;
+               width=&#34;376&#34;
+               height=&#34;65&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      nvcc -V查看安装的cuda版本
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-查看cudnn版本&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/code_notes/3_hu3df6c53d633e6ef5f11526114bfd95cc_3703_991e7aa0a141841806320be208277f76.png 400w,
+               /media/posts/code_notes/3_hu3df6c53d633e6ef5f11526114bfd95cc_3703_a9051bef438c078a2b86e4e9644ff529.png 760w,
+               /media/posts/code_notes/3_hu3df6c53d633e6ef5f11526114bfd95cc_3703_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/code_notes/3_hu3df6c53d633e6ef5f11526114bfd95cc_3703_991e7aa0a141841806320be208277f76.png&#34;
+               width=&#34;465&#34;
+               height=&#34;145&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      查看cudnn版本
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;如果cuda安装成功后，即nvcc -V显示正确版本号，但是cudnn却失败了，可以尝试选用稍旧版本的cudnn而非最新版&lt;/p&gt;
+&lt;p&gt;tensorflow截止到1.15版本，都不支持cuda-10.2，为了安装tensorflow，需要手动配置cuda-10.0，并修改~/.bashrc文件中的&lt;code&gt;PATH&lt;/code&gt;和&lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt;变量。&lt;/p&gt;
+&lt;h4 id=&#34;pyrender安装&#34;&gt;PyRender安装&lt;/h4&gt;
+&lt;p&gt;windows安装：缺少freetype依赖，发现是因为没有安装visual studio&lt;/p&gt;
+&lt;h4 id=&#34;pytorch3d安装&#34;&gt;PyTorch3D安装&lt;/h4&gt;
+&lt;p&gt;PyTorch3D是Facebook开源的3D视觉工具包，安装指引：&lt;a href=&#34;https://github.com/facebookresearch/pytorch3d/blob/master/INSTALL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;链接&lt;/a&gt;
+windows（无cpu）安装：使用以下命令（需要提前安装好torch, torchvision等工具包）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/facebookresearch/pytorch3d.git
+cd pytorch3d
+pip install -e .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;linux常用命令&#34;&gt;Linux常用命令&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;tmux&lt;/strong&gt;：将程序放在后台执行，即使推出ssh登录，只要服务器没有关机，程序就不会终端。&lt;/p&gt;
+&lt;p&gt;创建新的窗口 &lt;code&gt;tmux new -s your_name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;暂时退出当前窗口 &lt;code&gt;ctrl+b+d&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;结束终止当前窗口 &lt;code&gt;exit&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查看已创建的窗口 &lt;code&gt;tmux ls&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;进入之前创建的窗口 &lt;code&gt;tmux attach -t your_name或tmux a -t your_name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;nohup&lt;/strong&gt;：也是将程序放在后台执行，在没有tmux的情况下，使用nohup是一个退而求其次的选择&lt;/p&gt;
+&lt;p&gt;执行任务并放到后台 &lt;code&gt;nohup bash yourscript.sh &amp;gt; your_log.log 2&amp;gt;&amp;amp;1 &amp;amp;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之后只能通过查看log文件，来了解程序运行输出情况。不能像tmux那样进入窗口查看。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;top，htop，ps -aux&lt;/strong&gt;：这三个都是用来查看本机运行的任务的，按需取用。&lt;code&gt;htop&lt;/code&gt;和&lt;code&gt;ps -aux&lt;/code&gt;可以比较方便的定位到具体的任务对应的PID进行，方便进行Kill&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;scp&lt;/strong&gt;：用来进行数据传输。&lt;/p&gt;
+&lt;p&gt;服务器下载文件到本地：&lt;code&gt;scp username@server_ip_address:文件在服务器的路径  文件在本地的保存路径&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;本机文件传递给服务器： &lt;code&gt;scp 文件在本地的保存路径  username@server_ip_address:文件在服务器的路径&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;连接服务器需要指定端口时，加入-P （大写）参数&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;nvidia-smi，gpustat&lt;/strong&gt;：这两个命令都可以用来查看当前机器的显卡占用情况，gpustat需要使用pip进行安装，界面简洁好看些。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tensorboard&lt;/strong&gt;：用于查看训练过程中的结果&lt;/p&gt;
+&lt;p&gt;基本设置为：&lt;code&gt;tensorboard --logdir path_to_log --port your_port&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之后用浏览器打开 http://localhost:your_port即可，默认端口6006&lt;/p&gt;
+&lt;p&gt;打开服务器上的log文件&lt;/p&gt;
+&lt;p&gt;连接服务器：&lt;code&gt;ssh -L 本地端口:127.0.0.1:服务器端口 username@server_ip_address&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在服务器上执行：&lt;code&gt;tensorboard --logdir path_to_log --port 服务器端口&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在本地浏览器打开：http://localhost:本地端口&lt;/p&gt;
+&lt;p&gt;tensorboard的使用，需要pip安装tensorboard库，如果安装完之后还是没有，需要寻找对应的文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;alias tensorboard=&#39;python /home/username/anaconda3/envs/your_env_name/lib/python3.6/site-packages/tensorboard/main.py&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which&lt;/p&gt;
+&lt;p&gt;可以用于查看当前使用的命令路径，例如：&lt;code&gt;which nvcc&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;pytorch笔记&#34;&gt;PyTorch笔记&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;关于device&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;DataParallel会自动将输入数据映射到对应的模型device上，验证代码：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def verify_device():
+    class net(nn.Module):
+        def __init__(self):
+            super(net, self).__init__()
+        
+        def forward(self, inputs):
+            print(&amp;quot;data&#39;s device in model: &amp;quot;, inputs.device)
+
+    my_net = net()
+    my_net = nn.DataParallel(my_net.cuda())  # my_net = my_net.cuda()
+    inputs = torch.ones((16, 3, 256, 256))
+    print(&amp;quot;data&#39;s device out model: &amp;quot;, inputs.device)
+    my_net(inputs)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;利用DataParallel 只将模型放在GPU上，而没有将输入放在GPU上，输出结果如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;data&#39;s device out model:  cpu
+data&#39;s device in model:  cuda:0
+data&#39;s device in model:  cuda:1
+data&#39;s device in model:  cuda:2
+data&#39;s device in model:  cuda:3
+data&#39;s device in model:  cuda:5
+data&#39;s device in model:  cuda:6
+data&#39;s device in model:  cuda:7
+data&#39;s device in model:  cuda:4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果使用注释中的&lt;code&gt;my_net = my_net.cuda()&lt;/code&gt;，则得到&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;data&#39;s device out model:  cpu
+data&#39;s device in model:  cpu
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;bug记录&#34;&gt;BUG记录&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;PyTorch的dataloader一旦执行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;for iter, batch in enumerate(dataloader):&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;会卡住很久，进入&lt;code&gt;__getitem__&lt;/code&gt;进行debug发现一直在读取图片，虽然我使用的并不是opencv库进行数据读取&lt;/p&gt;
+&lt;p&gt;解决办法：在主程序中加入&lt;code&gt;cv2.setNumThreads(0)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;谷歌搜索关键字：pytorch dataloader stucks&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Tensorflow多次load模型(为了进行多次测试)时，可能会出现&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;ValueError: Variable *** already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这种情况，通常是需要在代码中加入，每次load模型前清理一次计算图&lt;code&gt;tf.reset_default_graph()&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;基于PyTorch的代码，训练效果还不错，测试效果很糟糕，排除过拟合的原因以及测试代码的问题。最后发现是该代码在测试时需要指定&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;model.train()&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;程序报错：&lt;code&gt;cudnn_status_not_initialized&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;可能是因为当前显卡正在被其他任务占用&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;安装neural_renderer_pytorch&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;RuntimeError: Error compiling objects for extension&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：将pytorch的版本从1.5降到1.2&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;多卡GPU训练，保存的也是多卡模型，却需要单卡测试&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;Unexpected key(s) in state_dict: &amp;quot;module.*&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;model.load_state_dict({k.replace(&#39;module.&#39;, &#39;&#39;): v for k, v in torch.load(model_state_path).items()})&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;模型在GPU上训练，需要在CPU上测试，跑inference&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;解决办法：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ckpt = torch.load(model_path, map_location=torch.device(&amp;quot;cpu&amp;quot;))&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;程序报错: &lt;code&gt;ModuleNotFoundError: No module named ‘network’&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;原因：保存模型时使用的是&lt;code&gt;torch.save(model)&lt;/code&gt; 而不是&lt;code&gt;torch.save(model.state_dict)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：在执行模型保存命令的py文件路径下，再次读取模型，并使用&lt;code&gt;torch.save(model.state_dict)&lt;/code&gt;来保存模型&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

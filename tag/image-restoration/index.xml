@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Restoration | Xiaoqiang&#39;s Homepage</title>
+    <link>http://xiaoqiangzhou.cn/tag/image-restoration/</link>
+      <atom:link href="http://xiaoqiangzhou.cn/tag/image-restoration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Restoration</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png</url>
+      <title>Image Restoration</title>
+      <link>http://xiaoqiangzhou.cn/tag/image-restoration/</link>
+    </image>
+    
+    <item>
+      <title>[AAAI 2022] Revisiting Global Statistics Aggregation for Improving Image Restoration</title>
+      <link>http://xiaoqiangzhou.cn/post/chu_revisiting/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://xiaoqiangzhou.cn/post/chu_revisiting/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_50551a23622d6ba605ce93a2febed507.PNG 400w,
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_655c2cf608a8f82a32a6ab53f2a4a0ad.PNG 760w,
+               /media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/0_hubcb6207f291c8349ce1e6771be420ded_26203_50551a23622d6ba605ce93a2febed507.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;124&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;summary&#34;&gt;Summary:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Domain gap between training/testing statistics distribution. This paper shows that statistics aggregated on the patches-based/entire-image-based feature in the training/testing phase respectively may distribute very differently.&lt;/li&gt;
+&lt;li&gt;The test-time solution can be summarized as converting the statistics aggregation operation from global to local, i.e. each pixel of the feature aggregates its own statistics locally.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;method&#34;&gt;Method:&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-illustration-of-training-and-testing-schemes-of-image-restoration&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_fcf6783fd6dca99fdc5245eadc7f98c3.PNG 400w,
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_7996b112f4293090ff5808333d721e00.PNG 760w,
+               /media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/1_hucbeb4ea3d14f171cb4bad5478aff1a37_189404_fcf6783fd6dca99fdc5245eadc7f98c3.PNG&#34;
+               width=&#34;444&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Illustration of training and testing schemes of image restoration
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The computational complexity of local statistics for the whole image can be reduced from $O(HWK_hK_w)$ to $O(HW)$ with some mathematical tricks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-formulation-of-the-global-statistics-calculation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_245ad170589f238ce8ffb08eabaa987a.PNG 400w,
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_a766e4dccb6b8ea7b599f379155e73e1.PNG 760w,
+               /media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/2_hua655102713792929bb891bd08a988625_6675_245ad170589f238ce8ffb08eabaa987a.PNG&#34;
+               width=&#34;267&#34;
+               height=&#34;66&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Formulation of the global statistics calculation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-formulation-of-the-local-statistics-calculation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_883f35f5566ea6f13dc276451848d99a.PNG 400w,
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_66905c017bae1f8dcbf5e5c331759500.PNG 760w,
+               /media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/3_hudfd7a9fccad84aae8d319dbc232eca76_6472_883f35f5566ea6f13dc276451848d99a.PNG&#34;
+               width=&#34;303&#34;
+               height=&#34;58&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Formulation of the local statistics calculation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;The authors extend the proposed modules to the  Squeeze and Excitation (SE) block and Instance Normalization (IN) block.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;experiments&#34;&gt;Experiments&lt;/h4&gt;
+&lt;p&gt;The authors take experiments on image restoration task and semantic segmentation task.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-4--visualization-of-the-statistics-mean-distribution-of-in-and-se-in-traintest-time&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_f4aace952048351c3036dce33503929a.PNG 400w,
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_2b08cb8e73d241b2bc6805d023211817.PNG 760w,
+               /media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_1200x1200_fit_lanczos_3.PNG 1200w&#34;
+               src=&#34;http://xiaoqiangzhou.cn/media/posts/Chu_revisiting/4_huacd4ec92d12c6dd417289ba5c18477d9_102123_f4aace952048351c3036dce33503929a.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;549&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 4:  Visualization of the statistics (mean) distribution of IN and SE in train/test-time
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;some-take-away-conclusions&#34;&gt;Some take-away conclusions&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Full-image training causes severe performance loss in low-level vision task.  This is explained by that full-images training lacks cropping augmentation&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

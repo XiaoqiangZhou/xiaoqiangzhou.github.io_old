@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Xiaoqiang&#39;s Homepage</title>
+    <link>http://xiaoqiangzhou.cn/project/</link>
+      <atom:link href="http://xiaoqiangzhou.cn/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>http://xiaoqiangzhou.cn/project/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1420 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Xiaoqiang Zhou" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="List some papers that propose a benchmark in their areas." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://xiaoqiangzhou.cn/post/benchmark/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e9dfd0d72348b3575652bf8384f1cedc.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-214736618-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-214736618-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://xiaoqiangzhou.cn/post/benchmark/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Xiaoqiang&#39;s Homepage" />
+  <meta property="og:url" content="http://xiaoqiangzhou.cn/post/benchmark/" />
+  <meta property="og:title" content="How to Make a Benchmark Analysis | Xiaoqiang&#39;s Homepage" />
+  <meta property="og:description" content="List some papers that propose a benchmark in their areas." /><meta property="og:image" content="http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-12-16T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-12-16T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://xiaoqiangzhou.cn/post/benchmark/"
+  },
+  "headline": "How to Make a Benchmark Analysis",
+  
+  "datePublished": "2021-12-16T00:00:00Z",
+  "dateModified": "2020-12-16T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaoqiang Zhou"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaoqiang's Homepage",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://xiaoqiangzhou.cn/media/icon_hudd244c7a401d7898701885a05ebe1cd4_6259_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "List some papers that propose a benchmark in their areas."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>How to Make a Benchmark Analysis | Xiaoqiang&#39;s Homepage</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="50c12c8612f0aa29279c992b116d9454" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Xiaoqiang&#39;s Homepage</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Xiaoqiang&#39;s Homepage</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Biography</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project/"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/life/"><span>Life</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How to Make a Benchmark Analysis</h1>
+
+  
+  <p class="page-subtitle">List some papers that propose a benchmark in their areas.</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/xiaoqiang-zhou/">Xiaoqiang Zhou</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 16, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/paper-notes/">Paper notes</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="cvpr-2019-single-image-deraining-a-comprehensive-benchmark-analysis">[CVPR 2019] Single Image Deraining: A Comprehensive Benchmark Analysis</h3>
+<h6 id="motivation">Motivation:</h6>
+<p>It is thus unclear how these algorithms would perform on rainy images acquired “in the wild” and how we could gauge the progress in the field.</p>
+<h6 id="pipeline">Pipeline:</h6>
+<ol>
+<li>Formulate the rainy image synthesis process (from simple to complex)</li>
+<li>Summarize the contribution (thorough methods/testing sets)</li>
+<li>Method: Introduce the training sets</li>
+<li>Method: Introduce the testing sets</li>
+<li>Method: Introduce the additional task-driven (object detection in rainy images) testing sets.</li>
+<li>Experiments: Objective comparison (PSNR, SSIM, NIQE, SSEQ, and BLIINDSII)</li>
+<li>Experiments: Subjective comparison (11 human raters)</li>
+</ol>
+<h3 id="tpami-2021-cross-domain-facial-expression-recognition-a-unified-evaluation-benchmark-and-adversarial-graph-learning">[TPAMI 2021] Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning</h3>
+<h6 id="motivation-1">Motivation:</h6>
+<ol>
+<li>Comprehensive and fair comparisons are lacking due to inconsistent choices of the source/target datasets and feature extractors.</li>
+<li>This journal paper is an extension work on their conference paper, which is published on ACM MM 2020. Therefore, the authors propose a novel method for this task.</li>
+</ol>
+<h6 id="pipeline-1">Pipeline:</h6>
+<ol>
+<li>Category existing works by the training sets and backbone network.</li>
+<li>Build a simple baseline with ResNet-50 and take experiments to verify the influence of domain gap caused by the selected training sets.</li>
+<li>Conduct experiments to compare the effectiveness of different backbones under a baseline design.</li>
+<li><strong>Re-implement some SOTA methods manually and take thorough experiments with different training sets / backbone.</strong></li>
+<li>Evaluation Protocols: Dataset choice/Feature extractor choice</li>
+<li>Introduce the proposed method.</li>
+<li>Ablation study on the proposed method.</li>
+</ol>
+<h3 id="tpami-2020-toward-bridging-the-simulated-to-real-gap-benchmarking-super-resolution-on-real-data">[TPAMI 2020] Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Resolution on Real Data</h3>
+<h3 id="cvpr-2020-cross-domain-document-object-detection-benchmark-suite-and-method">[CVPR 2020] Cross-Domain Document Object Detection: Benchmark Suite and Method</h3>
+<h3 id="wacv-2021-adaptiope-a-modern-benchmark-for-unsupervised-domain-adaptation">[WACV 2021] Adaptiope: A Modern Benchmark for Unsupervised Domain Adaptation</h3>
+<h3 id="todo--the-first-work-that-defines-the-setting-of-domain-generalization-task">[TODO ] The first work that defines the setting of domain generalization task</h3>
+<h3 id="submitted-to-neurips-21-ood-bench-benchmarking-and-understanding-out-of-distribution-generalization-datasets-and-algorithms">[submitted to NeurIPS 21] OoD-Bench Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms</h3>
+<h3 id="domain-generalization-in-vision-a-survey">Domain Generalization in Vision: A Survey</h3>
+<h3 id="number-of-paper-titles-including-benchmark">Number of paper titles including &ldquo;benchmark&rdquo;:</h3>
+<ul>
+<li><em>ICCV 2021:</em> 18. <a href="https://openaccess.thecvf.com/ICCV2021?day=all" target="_blank" rel="noopener">Link</a></li>
+<li><em>CVPR 2021:</em> 17. <a href="https://openaccess.thecvf.com/CVPR2021?day=all" target="_blank" rel="noopener">Link</a></li>
+<li><em>ECCV 2020:</em> 7.  <a href="https://www.ecva.net/papers.php" target="_blank" rel="noopener">Link</a></li>
+<li><em>CVPR 2020:</em> 6.  <a href="https://openaccess.thecvf.com/CVPR2020" target="_blank" rel="noopener">Link</a></li>
+<li><em>TPAMI</em></li>
+</ul>
+<details>
+<summary><i>TPAMI</i></summary>
+<pre>
+1. Title: <b>Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Resolution on Real Data</b>
+   Authors: TPAMI 2020
+</pre>
+</details>
+<details>
+<summary><i>ICCV 2021</i></summary>
+<pre>
+1. Title: Adversarial VQA: A New Benchmark for Evaluating the Robustness of VQA Models
+   Authors: Jingjing Liu
+2. Title: Env-QA: A Video Question Answering Benchmark for Comprehensive Understanding of Dynamic Environments
+    Authors: Ziyi Bai, Xilin Chen
+3. <b>Title: FloW: A Dataset and Benchmark for Floating Waste Detection in Inland Waters</b>
+   Authors:  <b>Yoshua Bengio</b>
+4. Title: Webly Supervised Fine-Grained Recognition: Benchmark Datasets and an Approach
+   Authors: Jian Zhang, Heng Tao Shen
+5. Title: H2O: A Benchmark for Visual Human-Human Object Handover Analysis
+   Authors: Yanfeng Wang, Cewu Lu
+6. Title: RobustNav: Towards Benchmarking Robustness in Embodied Navigation
+   Authors:
+7. Title: Towards Real-World Prohibited Item Detection: A Large-Scale X-Ray Benchmark
+   Authors:
+8. <b>Title: Transparent Object Tracking Benchmark</b>
+   Authors: Haibin Ling
+9. Title: E-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks
+   Authors:
+10. <b>Title: Benchmarking Ultra-High-Definition Image Super-Resolution</b>
+   Authors: Hongdong Li, Ming-Hsuan Yang
+11. Title: Unidentified Video Objects: A Benchmark for Dense, Open-World Segmentation
+   Authors:
+12. <b>Title: Real-World Video Super-Resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme</b>
+   Authors: Lei Zhang
+13. <b>Title: HDR Video Reconstruction: A Coarse-To-Fine Network and a Real-World Benchmark Dataset</b>
+   Authors: Lei Zhang
+</pre>
+</details>
+<details>
+<summary><i>CVPR 2021</i></summary>
+<pre>
+1. Title: <b>Multi-Shot Temporal Event Localization: A Benchmark</b>
+   Authors: Xiang Bai, Philip H. S. Torr
+2. Title: <b>Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline</b>
+   Authors:
+3. Title: GMOT-40: A Benchmark for Generic Multiple Object Tracking
+   Authors: Liang Lin
+4. Title: ForgeryNet: A Versatile Benchmark for Comprehensive Forgery Analysis
+   Authors: Ziwei Liu
+</pre>
+</details>
+<details>
+<summary><i>ECCV 2020</i></summary>
+<pre>
+1. Title: <b>Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms</b>
+   Authors: Jucheol Won, Sunghyun Cho
+2. Title: <b>Towards causal benchmarking of bias in face analysis algorithms</b>
+   Authors: MIT, Amazon
+</pre>
+</details>
+<details>
+<summary><i>CVPR 2020</i></summary>
+<pre>
+1. Title: <b>Cross-Domain Document Object Detection: Benchmark Suite and Method</b>
+   Authors: Yun Fu
+2. Title: <b>Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes</b>
+   Authors: Ronghe Chu, Jingyu Yang
+</pre>
+</details>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/benchmark/">Benchmark</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://xiaoqiangzhou.cn/post/benchmark/&amp;text=How%20to%20Make%20a%20Benchmark%20Analysis" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://xiaoqiangzhou.cn/post/benchmark/&amp;t=How%20to%20Make%20a%20Benchmark%20Analysis" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20to%20Make%20a%20Benchmark%20Analysis&amp;body=http://xiaoqiangzhou.cn/post/benchmark/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://xiaoqiangzhou.cn/post/benchmark/&amp;title=How%20to%20Make%20a%20Benchmark%20Analysis" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=How%20to%20Make%20a%20Benchmark%20Analysis%20http://xiaoqiangzhou.cn/post/benchmark/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://xiaoqiangzhou.cn/post/benchmark/&amp;title=How%20to%20Make%20a%20Benchmark%20Analysis" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="http://xiaoqiangzhou.cn"><img class="avatar mr-3 avatar-circle" src="/author/xiaoqiang-zhou/avatar_hufbcfb055f46657acedff90c52849dca3_203381_270x270_fill_q75_lanczos_center.jpg" alt="Xiaoqiang Zhou"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://xiaoqiangzhou.cn">Xiaoqiang Zhou</a></h5>
+      <h6 class="card-subtitle">Student of Computer Vision</h6>
+      <p class="card-text">My research interests include Low-Level Vision (e.g., inpainting, super-resolution), Image Synthesis</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:google@ustc.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/QR_code.jpg" >
+        <i class="fab fa-weixin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=Z2BTkNIAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/xiaoqiangzhou" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/%E6%99%93%E5%BC%BA-%E5%91%A8-b49624166/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cdcff5c47eba1caddf5c247f10827dad";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
